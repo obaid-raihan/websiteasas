@@ -588,11 +588,13 @@ section
 }
 .logo_text
 {
-	line-height: 0.94;
 	color: #4867c0;
 	font-size: 34px;
 	font-weight: 500;
 	text-align: left;
+}
+#association  {
+	color: #FF6347
 }
 .logo_text_not_ie
 {
@@ -626,9 +628,8 @@ section
 }
 .header_social ul li a i
 {
-	color: #4c4c4c;
+	color:orangered;
 	padding: 5px;
-	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
