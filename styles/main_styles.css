@@ -269,10 +269,10 @@ section
 	width: 200%;
 	height: 100%;
 	content: '';
-	background-color: #4867c0;
-	background-image: linear-gradient(to right, #4867c0, #329fec, #4867c0);
-	background: #4867c0;
-	background: linear-gradient(to right, #4867c0, #329fec, #4867c0);
+	background-color: orangered;
+	background-image: linear-gradient(to right, #4867c0, orangered, #4867c0);
+	background: orangered;
+	background: linear-gradient(to right, #4867c0, orangered, #4867c0);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -419,7 +419,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #4867c0;
+	background: goldenrod;
 }
 .menu_social
 {
@@ -630,6 +630,7 @@ section
 {
 	color:orangered;
 	padding: 5px;
+	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
@@ -656,7 +657,7 @@ section
 }
 .hamburger i:hover
 {
-	color: #329fec;
+	color:orangered;
 }
 .header_nav
 {
