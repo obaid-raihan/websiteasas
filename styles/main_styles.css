@@ -929,10 +929,13 @@ section
 	padding-bottom: 73px;
 }
 .pricing_section_title
+
 {
-	font-size: 48px;
-	color: #FFFFFF;
+	font-size: 58px;
+	color:linear-gradient(to right, #4867c0, orangered, #4867c0)
+	 
 }
+
 .pricing_row
 {
 	margin-top: 145px;
