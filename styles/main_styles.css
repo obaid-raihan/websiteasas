@@ -509,7 +509,7 @@ section
 {
 	font-size: 60px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: orange;
 	margin-top: -5px;
 	line-height: 1.2;
 }
@@ -517,14 +517,14 @@ section
 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color:orangered;
 	margin-top: -13px;
 }
 .home_text
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color:black;
 	line-height: 2.14;
 	margin-top: 4px;
 }
@@ -581,7 +581,7 @@ section
 }
 .logo_image div img
 {
-	animation: animate 21s linear infinite;
+	animation: animate 25s linear infinite;
 	max-width: 100%;
 }
 .logo_content
@@ -590,6 +590,12 @@ section
 }
 .logo_text
 {
+	color: #4867c0;
+	font-size: 40px; 
+	font-weight: 500;
+	text-align: left;
+}
+ h1{
 	color: #4867c0;
 	font-size: 20px; 
 	font-weight: 500;
@@ -1299,7 +1305,7 @@ section
 }
 .footer_social_list li a i
 {
-	color: #a09fa1;
+	color:orangered;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1348,10 +1354,10 @@ section
 	margin-top: 7px;
 }
 @keyframes animate {
-  0%{
+  100%{
     transform: rotate(0deg);
   }
-  100%{
+  2%{
     transform: rotate(360deg);
 	}
 }
