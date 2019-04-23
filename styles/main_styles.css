@@ -333,6 +333,7 @@ section
 .menu_logo
 {
 	margin-bottom: 38px;
+	
 }
 .menu_logo a img
 {
@@ -580,6 +581,7 @@ section
 }
 .logo_image div img
 {
+	animation: animate 8s linear infinite;
 	max-width: 100%;
 }
 .logo_content
@@ -589,7 +591,7 @@ section
 .logo_text
 {
 	color: #4867c0;
-	font-size: 34px;
+	font-size: 20px; 
 	font-weight: 500;
 	text-align: left;
 }
@@ -1095,14 +1097,12 @@ section
 {
 	width: 100%;
 	background: rgba(0,0,255,.2);
-	border-style: solid;
-  border-color: blue;
+
+
 	
 }
 .calendar_title_bar
 {
-	border-style: solid;
-  border-color: coral;
 	width: 100%;
 	height: 68px;
 	padding-left: 26px;
@@ -1241,6 +1241,7 @@ section
 .footer .logo_sub
 {
 	color: #bbbbbb;
+	
 }
 .footer_about_text
 {
@@ -1346,3 +1347,10 @@ section
 	color: #bbbbbb;
 	margin-top: 7px;
 }
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
