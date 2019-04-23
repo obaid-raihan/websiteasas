@@ -581,7 +581,7 @@ section
 }
 .logo_image div img
 {
-	animation: animate 8s linear infinite;
+	animation: animate 21s linear infinite;
 	max-width: 100%;
 }
 .logo_content
@@ -1353,4 +1353,5 @@ section
   }
   100%{
     transform: rotate(360deg);
-  }
+	}
+}

@@ -631,7 +631,6 @@ section
 .logo_image div img
 {
 	max-width: 100%;
-	animation: animate 8s linear infinite;
 }
 .logo_content
 {
@@ -1437,10 +1436,3 @@ section
 	color: #bbbbbb;
 	margin-top: 7px;
 }
-@keyframes animate {
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg);
-  }
