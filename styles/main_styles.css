@@ -617,10 +617,13 @@ section
 }
 .logo_sub
 {
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: 500;
-	color: #4c4c4c;
-	margin-top: 5px;
+	direction: rtl;
+	font-style: unset;
+	color:blue;
+	margin-top: 10px;
+	text-align: right;
 }
 .header_social ul
 {
