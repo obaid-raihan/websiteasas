@@ -583,6 +583,11 @@ section
 {
 	animation: animate 25s linear infinite;
 	max-width: 100%;
+
+
+}
+
+
 }
 .logo_content
 {
@@ -623,6 +628,7 @@ section
 	font-style: unset;
 	color:blue;
 	margin-top: 10px;
+	margin-bottom: 15px;
 	text-align: right;
 }
 .header_social ul
