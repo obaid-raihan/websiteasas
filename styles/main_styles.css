@@ -578,6 +578,8 @@ section
 {
 	width: 79px;
 	height: 56px;
+	margin: 0px;
+	
 }
 .logo_image div img
 {
@@ -588,7 +590,6 @@ section
 }
 
 
-}
 .logo_content
 {
 	padding-left: 13px;
@@ -596,8 +597,8 @@ section
 .logo_text
 {
 	color: #4867c0;
-	font-size: 40px; 
-	font-weight: 500;
+	font-size: 30px; 
+	font-weight: 100%;
 	text-align: left;
 }
  h1{
