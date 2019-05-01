@@ -291,6 +291,7 @@ section
 }
 .button a
 {
+	border-radius:10px;
 	display: block;
 	position: relative;
 	line-height: 52px;
